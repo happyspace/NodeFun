@@ -1,8 +1,14 @@
 /**
- * Call back.
+ * Yargs
  */
 
-let validate = require('./rectangle_class_callback');
+const argv = require('yargs')
+    .usage('Usage: node $0 --l[num] --b[num]')
+    .demand(['l','b'])
+    .argv;
+
+
+const validate = require('./rectangle_class_callback');
 
 function solveRect(l,b) {
     console.log("Solving for rectangle with l = "
@@ -20,6 +26,4 @@ function solveRect(l,b) {
     });
 }
 
-solveRect(2,4);
-solveRect(3,5);
-solveRect(-3,5);
+
