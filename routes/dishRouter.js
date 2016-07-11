@@ -7,47 +7,129 @@
  */
 
 const express = require('express');
-const router = express.Router();
+const dishRouter = express.Router();
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+var Verify = require('./verify');
 
-router.use(bodyParser.json());
+const Dishes = require('../models/dishes');
 
-router.route('/')
-    .all((req,res,next) => {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
+dishRouter.use(bodyParser.json());
+
+dishRouter.route('/')
+    .get(Verify.verifyOrdinaryUser, (req,res,next) => {
+        Dishes.find({}, (err, dish) => {
+            if(err) throw err;
+            res.json(dish);
+        })
     })
 
+    .post(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Dishes.create(req.body, (err, dish) => {
+            if (err) throw err;
+            let id = dish._id;
+            res.writeHead(200, {'Content-Type': 'text/plain'});
+            res.end('Added the dish with id: ' + id);
+        });
+    })
+
+    .delete(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Dishes.remove({}, (err, resp) => {
+            if(err) throw err;
+            res.json(resp);
+        });
+    });
+
+dishRouter.route('/:dishId')
     .get((req,res,next) => {
-        res.end('Will send all the dishes to you!');
+        Dishes.findById(req.params.dishId, (err, dish) => {
+            if(err) throw err;
+            res.json(dish);
+        });
     })
 
-    .post((req,res,next) => {
-        res.end('Will add the dish: ' + req.body.name + ' with details: ' + req.body.description);
+    .put((req, res, next) => {
+        Dishes.findByIdAndUpdate(req.params.dishId,
+            { $set: req.body},
+            { new: true },
+            (err, dish) => {
+                if (err) throw err;
+                res.json(dish);
+        });
     })
 
     .delete((req,res,next) => {
-        res.end('Deleting all dishes');
+        Dishes.remove(req.params.dishId, (err, resp) => {
+            if (err) throw err;
+            res.json(resp);
+        });
     });
 
-router.route('/:dishId')
-    .all((req,res,next) =>  {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
+dishRouter.route('/:dishId/comments')
+    .get((req, res, next) => {
+        Dishes.findById(req.params.dishId, (err, dish) => {
+            if (err) throw err;
+            res.json(dish.comments);
+        });
     })
+    .post((req, res, next) => {
+        Dishes.findById(req.params.dishId, (err, dish) => {
+            if (err) throw err;
+            dish.comments.push(req.body);
+            dish.save((err, dish) => {
+                if (err) throw err;
+                console.log('Updated Comments!');
+                res.json(dish);
+            });
+        })
 
-    .get((req,res,next) => {
-        res.end('Will send details of the dish: ' + req.params.dishId +' to you!');
+
     })
-
-    .put((req,res,next) => {
-        res.write('Updating the dish: ' + req.params.dishId + '\n');
-        res.end('Will update the dish: ' + req.body.name +
-            ' with details: ' + req.body.description);
-    })
-
-    .delete((req,res,next) => {
-        res.end('Deleting dish: ' + req.params.dishId);
+    .delete ( (req, res, next) => {
+            Dishes.findById(req.params.dishId, (err, dish) => {
+                if (err) throw err;
+                for (let i = (dish.comments.length - 1); i >=0; i--){
+                    dish.comments.id(dish.comments[i]._id).remove();
+                }
+                dish.save(function (err, result) {
+                    if (err) throw err;
+                    res.writeHead(200, {
+                        'Content-Type': 'text/plain'
+                    });
+                    res.end('Deleted all comments!');
+                });
+            });
     });
 
-module.exports = router;
+dishRouter.route('/:dishId/comments/:commentId')
+    .get((req, res, next) => {
+        Dishes.findById(req.params.dishId, (err, dish) => {
+            if (err) throw err;
+            res.json(dish.comments.id(req.params.commentId));
+        })
+    })
+    .put((req, res, next) => {
+        // We delete the existing comment and insert the updated
+        // comment as a new comment
+        Dishes.findById(req.params.dishId, (err, dish) => {
+            if (err) throw err;
+            dish.comments.id(req.params.commentId).remove();
+            dish.comments.push(req.body);
+            dish.save(function (err, dish) {
+                if (err) throw err;
+                console.log('Updated Comments!');
+                res.json(dish);
+            });
+        });
+    })
+    .delete((req, res, next) => {
+        Dishes.findById(req.params.dishId, function (err, dish) {
+            dish.comments.id(req.params.commentId).remove();
+            dish.save(function (err, resp) {
+                if (err) throw err;
+                res.json(resp);
+            });
+        });
+    });
+
+module.exports = dishRouter;

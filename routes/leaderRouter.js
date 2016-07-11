@@ -8,47 +8,63 @@
  
 
 const express = require('express');
-const router = express.Router();
+const leaderRouter = express.Router();
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
-router.use(bodyParser.json());
+const Leaders = require('../models/leaders');
 
-router.route('/')
-    .all((req,res,next) => {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
-    })
+leaderRouter.use(bodyParser.json());
+
+leaderRouter.route('/')
 
     .get((req,res,next) => {
-        res.end('Will send all the leaders to you!');
+        Leaders.find({}, (err, dish) => {
+            if(err) throw err;
+            res.json(dish);
+        })
     })
 
     .post((req,res,next) => {
-        res.end('Will add the leader: ' + req.body.name + ' with details: ' + req.body.description);
+        Leaders.create(req.body, (err, leader) => {
+            if (err) throw err;
+            let id = leader._id;
+            res.writeHead(200, {'Content-Type': 'text/plain'});
+            res.end('Added the dish with id: ' + id);
+        });
     })
 
     .delete((req,res,next) => {
-        res.end('Deleting all leaders');
+        Leaders.remove({}, (err, resp) => {
+            if(err) throw err;
+            res.json(resp);
+        });
     });
 
-router.route('/:leaderId')
-    .all((req,res,next) =>  {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
-    })
+leaderRouter.route('/:leaderId')
 
     .get((req,res,next) => {
-        res.end('Will send details of the leader: ' + req.params.leaderId +' to you!');
+        Leaders.findById(req.params.leaderId, (err, leader) => {
+            if(err) throw err;
+            res.json(leader);
+        });
     })
 
     .put((req,res,next) => {
-        res.write('Updating the leader: ' + req.params.leaderId + '\n');
-        res.end('Will update the leader: ' + req.body.name +
-            ' with details: ' + req.body.description);
+        Leaders.findByIdAndUpdate(req.params.leaderId,
+            { $set: req.body},
+            { new: true },
+            (err, leader) => {
+                if (err) throw err;
+                res.json(leader);
+            });
     })
 
     .delete((req,res,next) => {
-        res.end('Deleting leader: ' + req.params.leaderId);
+        Leaders.remove(req.params.leaderId, (err, resp) => {
+            if (err) throw err;
+            res.json(resp);
+        });
     });
 
-module.exports = router;
+module.exports = leaderRouter;

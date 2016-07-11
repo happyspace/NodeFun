@@ -33,7 +33,7 @@ const leaderSchema = new Schema({
 
 // the schema is useless so far
 // we need to create a model using it
-let Leaders = mongoose.model('Dish', leaderSchema);
+let Leaders = mongoose.model('Leader', leaderSchema);
 
 // make this available to our Node applications
 module.exports = Leaders;

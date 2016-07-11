@@ -36,7 +36,7 @@ const promotionSchema = new Schema({
 
 // the schema is useless so far
 // we need to create a model using it
-let Promotions = mongoose.model('Dish', promotionSchema);
+let Promotions = mongoose.model('Promotion', promotionSchema);
 
 // make this available to our Node applications
 module.exports = Promotions;

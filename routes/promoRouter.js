@@ -8,47 +8,63 @@
 
 
 const express = require('express');
-const router = express.Router();
+const promoRouter = express.Router();
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
+var Verify = require('./verify');
 
-router.use(bodyParser.json());
+const Promos = require('../models/promotions');
 
-router.route('/')
-    .all((req,res,next) => {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
+promoRouter.use(bodyParser.json());
+
+promoRouter.route('/')
+
+    .get(Verify.verifyOrdinaryUser, (req,res,next) => {
+        Promos.find({}, (err, promo) => {
+            if(err) throw err;
+            res.json(promo);
+        })
     })
 
-    .get((req,res,next) => {
-        res.end('Will send all the promotions to you!');
+    .post(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Promos.create(req.body, (err, promo) => {
+            if (err) throw err;
+            let id = promo._id;
+            res.writeHead(200, {'Content-Type': 'text/plain'});
+            res.end('Added the promo with id: ' + id);
+        });    
     })
 
-    .post((req,res,next) => {
-        res.end('Will add the promotion: ' + req.body.name + ' with details: ' + req.body.description);
-    })
-
-    .delete((req,res,next) => {
-        res.end('Deleting all promotions');
+    .delete(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Promos.remove({}, (err, resp) => {
+            if(err) throw err;
+            res.json(resp);
+        });
     });
 
-router.route('/:promotionId')
-    .all((req,res,next) =>  {
-        res.writeHead(200, { 'Content-Type': 'text/plain' });
-        next();
+promoRouter.route('/:promotionId')
+
+    .get(Verify.verifyOrdinaryUser, (req,res,next) => {
+        Promos.findById(req.params.promotionId, (err, promo) => {
+            if(err) throw err;
+            res.json(promo);
+        });    })
+
+    .put(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Promos.findByIdAndUpdate(req.params.promotionId,
+            { $set: req.body},
+            { new: true },
+            (err, promotion) => {
+                if (err) throw err;
+                res.json(promotion);
+            });
     })
 
-    .get((req,res,next) => {
-        res.end('Will send details of the promotion: ' + req.params.promotionId +' to you!');
-    })
-
-    .put((req,res,next) => {
-        res.write('Updating the promotion: ' + req.params.promotionId + '\n');
-        res.end('Will update the promotion: ' + req.body.name +
-            ' with details: ' + req.body.description);
-    })
-
-    .delete((req,res,next) => {
-        res.end('Deleting promotion: ' + req.params.promotionId);
+    .delete(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
+        Promos.remove(req.params.promotionId, (err, resp) => {
+            if (err) throw err;
+            res.json(resp);
+        });
     });
 
-module.exports = router;
+module.exports = promoRouter;
