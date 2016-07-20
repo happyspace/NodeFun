@@ -23,6 +23,7 @@ const users = require('./routes/users');
 const dishRouter = require('./routes/dishRouter');
 const promoRouter = require('./routes/promoRouter');
 const leaderRouter = require('./routes/leaderRouter');
+const favoriteRouter = require('./routes/favoriteRouter');
 
 const app = express();
 
@@ -57,6 +58,7 @@ app.use('/users', users);
 app.use('/dishes', dishRouter);
 app.use('/promotions', promoRouter);
 app.use('/leadership', leaderRouter);
+app.use('/favorite', favoriteRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

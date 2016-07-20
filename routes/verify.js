@@ -5,9 +5,9 @@
 const User = require('../models/user');
 const jwt = require('jsonwebtoken'); // used to create, sign, and verify tokens
 const config = require('../config.js');
-var Verify = require('./verify');
 
 exports.getToken = (user) => {
+    console.log(user);
     return jwt.sign(user, config.secretKey, {expiresIn: 3600});
 };
 

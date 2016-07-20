@@ -10,7 +10,7 @@ const express = require('express');
 const dishRouter = express.Router();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-var Verify = require('./verify');
+const Verify = require('./verify');
 
 const Dishes = require('../models/dishes');
 
@@ -18,10 +18,12 @@ dishRouter.use(bodyParser.json());
 
 dishRouter.route('/')
     .get(Verify.verifyOrdinaryUser, (req,res,next) => {
-        Dishes.find({}, (err, dish) => {
+        Dishes.find({})
+            .populate('comments.postedBy')
+            .exec( (err, dish) => {
             if(err) throw err;
             res.json(dish);
-        })
+        });
     })
 
     .post(Verify.verifyOrdinaryUser, Verify.verifyAdmin, (req,res,next) => {
@@ -42,7 +44,9 @@ dishRouter.route('/')
 
 dishRouter.route('/:dishId')
     .get((req,res,next) => {
-        Dishes.findById(req.params.dishId, (err, dish) => {
+        Dishes.findById(req.params.dishId)
+            .populate('comments.postedBy')
+            .exec( (err, dish) => {
             if(err) throw err;
             res.json(dish);
         });
@@ -66,15 +70,19 @@ dishRouter.route('/:dishId')
     });
 
 dishRouter.route('/:dishId/comments')
+    .all(Verify.verifyOrdinaryUser)
     .get((req, res, next) => {
-        Dishes.findById(req.params.dishId, (err, dish) => {
-            if (err) throw err;
-            res.json(dish.comments);
+        Dishes.findById(req.params.dishId)
+            .populate('comments.postedBy')
+            .exec ((err, dish) => {
+                if (err) throw err;
+                res.json(dish.comments);
         });
     })
     .post((req, res, next) => {
         Dishes.findById(req.params.dishId, (err, dish) => {
             if (err) throw err;
+            req.body.postedBy = req.decoded._doc._id;
             dish.comments.push(req.body);
             dish.save((err, dish) => {
                 if (err) throw err;
@@ -85,7 +93,7 @@ dishRouter.route('/:dishId/comments')
 
 
     })
-    .delete ( (req, res, next) => {
+    .delete (Verify.verifyAdmin, (req, res, next) => {
             Dishes.findById(req.params.dishId, (err, dish) => {
                 if (err) throw err;
                 for (let i = (dish.comments.length - 1); i >=0; i--){
@@ -102,6 +110,7 @@ dishRouter.route('/:dishId/comments')
     });
 
 dishRouter.route('/:dishId/comments/:commentId')
+    .all(Verify.verifyOrdinaryUser)
     .get((req, res, next) => {
         Dishes.findById(req.params.dishId, (err, dish) => {
             if (err) throw err;
@@ -124,6 +133,13 @@ dishRouter.route('/:dishId/comments/:commentId')
     })
     .delete((req, res, next) => {
         Dishes.findById(req.params.dishId, function (err, dish) {
+            if(dish.comments.id(req.params.commentId).postedBy
+                != req.decoded._doc._id) {
+                let err = new Error('You are not authorized to perform this operation!');
+                err.status = 403;
+                return next(err);
+            }
+
             dish.comments.id(req.params.commentId).remove();
             dish.save(function (err, resp) {
                 if (err) throw err;
