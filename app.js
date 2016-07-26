@@ -6,7 +6,8 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const passport = require('passport');
-const LocalStrategy = require('passport-local').Strategy;
+
+const authenticate = require('./modules/authentication');
 
 const config = require('./config');
 
@@ -45,18 +46,14 @@ app.use(require('node-sass-middleware')({
 }));
 
 // passport config
-var User = require('./models/user');
 app.use(passport.initialize());
-passport.use(new LocalStrategy(User.authenticate()));
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
 
 // Secure traffic only
 app.all('*', function(req, res, next){
     console.log('req start: ',req.secure, req.hostname, req.url, app.get('port'));
     if (req.secure) {
         return next();
-    };
+    }
 
     res.redirect('https://'+req.hostname+':'+app.get('secPort')+req.url);
 });
