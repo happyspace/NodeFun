@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Color</title>
+</head>
+<body onload="do_game()">
+
+    <script>
+        // color list from https://gist.github.com/bobspace/2712980
+        var CSS_COLOR_NAMES = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure","Beige","Bisque","Black","BlanchedAlmond","Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Cornsilk","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","FloralWhite","ForestGreen","Fuchsia","Gainsboro","GhostWhite","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HoneyDew","HotPink","IndianRed","Indigo","Ivory","Khaki","Lavender","LavenderBlush","LawnGreen","LemonChiffon","LightBlue","LightCoral","LightCyan","LightGoldenRodYellow","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","LightYellow","Lime","LimeGreen","Linen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MintCream","MistyRose","Moccasin","NavajoWhite","Navy","OldLace","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PapayaWhip","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","SeaShell","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","Snow","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","White","WhiteSmoke","Yellow","YellowGreen"];
+        var colors = [];
+        var targetColor;
+        var userChoice;
+        var numberOfColors = 8;
+        var numberOfGuesses = 0;
+        var finished = false;
+        
+        function do_game() {
+            // create a list of colors for the game
+            var i;
+            for(i = 0; i < numberOfColors; i++){
+                var cc = Math.floor(Math.random() * (CSS_COLOR_NAMES.length - 1));
+                var color = CSS_COLOR_NAMES[cc];
+                if(colors.indexOf(color) == -1){
+                    colors.push(color);
+                }
+            }
+            colors.sort();
+            console.log(colors);
+            // now choose a color
+            var colorIndex = Math.floor(Math.random() * colors.length);
+            targetColor = colors[colorIndex];
+            alert(targetColor);
+
+            while(!finished){
+                userChoice = prompt("I am thinking of one of these colors: \n\n " +
+                 colors.join(", ") + ". \n\n" +
+                "What color am I thinking of? ");
+                // cancel button
+                if (userChoice == null){
+                    finished = true;
+                }
+                numberOfGuesses += 1;
+                var mb = document.getElementsByTagName("body")[0];
+                mb.style.background = targetColor;
+                if (userChoice == targetColor) {
+                    finished = true;
+                    alert("Congratulations! You have guessed the color! \n\n " +
+                    "It took you " + numberOfGuesses + " guesses to finish the game!" +
+                    "You can see the colour in the background. ");
+
+                }
+            }
+        }
+
+
+    </script>
+</body>
+</html>
