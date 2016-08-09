@@ -2,25 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c4d9d92-c0a6-4dc6-bca9-e366eb9c8b8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/guessing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/guessing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/01_html_example_script.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/01_onload_event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/01_variables_data_type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/02_alert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/02_onload_event2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/03_confirm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/03_function_simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/04_function2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/04_prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/05_function_recursive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/jsfun/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/part1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/part2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Eddie_Warner.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Eddie_Warner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/google_plus_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/stones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/twitter_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern_js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/colorful/02_dom_colorful_pattern_no_color.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/01_dom_clone_node_simple_clonenode_false.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/01_dom_delete_node_example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/01_dom_html_insertbefore.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/01_dom_path_html.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/02_dom_clone_node_simple_clonenode_true.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/02_dom_delete_all_children_example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/02_dom_html_appendchild.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dom/02_dom_path_svg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/01_add_event_js1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/01_cleartimeout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/01_function_passes_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/01_onclick_image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/02_add_event_js2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/02_function_returns_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/02_onmouseover_onmouseout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/02_settimeout_image1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/03_remove_event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/03_settimeout2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/04_setinterval_image1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/eventtest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/events/timertest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/loops/01_for.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/loops/02_for_in.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/loops/03_for_in_object.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/loops/04_for_of.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/smiles/part1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/smiles/part2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/smiles/part3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/smiles/part4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeFun.iml" afterPath="$PROJECT_DIR$/NodeFun.iml" />
     </list>
     <ignored path="NodeFun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,166 +60,108 @@
     <favorites_list name="NodeFun" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.70056146">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="04_function2.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/jsfun/04_function2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/jsfun/test.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="guessing.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/guessing.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="part1.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/part1.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="70" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="part2.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/part2.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EcmaScript5.js" pinned="false" current-in-tab="false">
-            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="guessing.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/javascripts/guessing.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1034">
-                  <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EcmaScript.js" pinned="false" current-in-tab="false">
-            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="03_confirm.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/jsfun/03_confirm.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="02_alert.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/jsfun/02_alert.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="favoriteRouter.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/favoriteRouter.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="924">
-                  <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="www" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/bin/www">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="920">
-                  <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="certificate.pem" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bin/certificate.pem">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="private.key" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bin/private.key">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="oneFavoriteRouter.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/routes/oneFavoriteRouter.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="22">
-                  <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="guessing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/guessing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/part1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02_dom_colorful_pattern_no_color.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/colorful/02_dom_colorful_pattern_no_color.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_dom_colorful_pattern_js.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern_js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/date/part1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/smiles/part1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/smiles/part2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/smiles/part3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part4.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/smiles/part4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_dom_colorful_pattern.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -221,17 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bin/www-simple-express-route.js" />
-        <option value="$PROJECT_DIR$/bin/www-simple-express-router.js" />
-        <option value="internal/module.js" />
-        <option value="$PROJECT_DIR$/bin/server.js" />
-        <option value="$PROJECT_DIR$/routes/dishes.js" />
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/modules/mongo_operations.js" />
-        <option value="$PROJECT_DIR$/bin/mongo-simple.js" />
-        <option value="$PROJECT_DIR$/bin/mongo-simple-ops.js" />
-        <option value="$PROJECT_DIR$/models/dishes_simple.js" />
-        <option value="$PROJECT_DIR$/bin/mongo-simple-mongoose.js" />
         <option value="$PROJECT_DIR$/bin/mongo-simple-mongoose-2-orig.js" />
         <option value="$PROJECT_DIR$/bin/mongo-simple-mongoose-2.js" />
         <option value="$PROJECT_DIR$/bin/mongo-simple-mongoose-3.js" />
@@ -272,6 +222,17 @@
         <option value="chrome-extension://ohhcpmplhhiiaoiddkfboafbhiknefdf/TMToolbar/3rd_party/jQuery-1.7.1.js" />
         <option value="$PROJECT_DIR$/public/part2.html" />
         <option value="$PROJECT_DIR$/public/part1.html" />
+        <option value="$PROJECT_DIR$/public/smiles/part1.html" />
+        <option value="$PROJECT_DIR$/public/dom/01_dom_path_html.html" />
+        <option value="chrome-extension://ohhcpmplhhiiaoiddkfboafbhiknefdf/TMToolbar/toolbarConstant.js" />
+        <option value="chrome-extension://ohhcpmplhhiiaoiddkfboafbhiknefdf/TMToolbar/toolbarLib.js" />
+        <option value="chrome-extension://ohhcpmplhhiiaoiddkfboafbhiknefdf/TMToolbar/toolbarCSLib.js" />
+        <option value="$PROJECT_DIR$/public/dom/02_dom_html_appendchild.html" />
+        <option value="$PROJECT_DIR$/public/events/timertest.html" />
+        <option value="$PROJECT_DIR$/public/events/eventtest.html" />
+        <option value="$PROJECT_DIR$/public/smiles/part2.html" />
+        <option value="$PROJECT_DIR$/public/smiles/part3.html" />
+        <option value="$PROJECT_DIR$/public/smiles/part4.html" />
       </list>
     </option>
   </component>
@@ -291,9 +252,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="-3" />
+    <option name="y" value="9" />
+    <option name="width" value="1932" />
     <option name="height" value="1216" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -730,9 +691,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -793,7 +754,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsfun" />
+              <option name="myItemId" value="smiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loops" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -829,7 +808,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="date" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeFun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colorful" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -930,31 +963,31 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaPrep" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git+\git-happyspace\NodeFun\public\smiles" />
+      <recent name="C:\git+\git-happyspace\NodeFun\public\colorful" />
+      <recent name="C:\git+\git-happyspace\NodeFun\public\events" />
+      <recent name="C:\git+\git-happyspace\NodeFun\public\dom" />
+      <recent name="C:\git+\git-happyspace\NodeFun\public\loops" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git+\git-happyspace\NodeFun" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\git+\git-happyspace\NodeFun\public" />
-      <recent name="C:\git+\git-happyspace\NodeFun\public\jsfun" />
-      <recent name="C:\git+\git-happyspace\NodeFun\public\date" />
-      <recent name="C:\git+\git-happyspace\NodeFun\public\forms" />
-      <recent name="C:\git+\git-happyspace\NodeFun\bin" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.part2.html">
-    <configuration default="false" name="server_basic_auth.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server_basic_auth.js" node-parameters="-expose_debug_as=v8debug" working-dir="$PROJECT_DIR$/bin">
+  <component name="RunManager" selected="JavaScript Debug.part4.html">
+    <configuration default="false" name="01_dom_path_html.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/dom/01_dom_path_html.html">
       <method />
     </configuration>
-    <configuration default="false" name="server_session_store.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server_session_store.js" working-dir="$PROJECT_DIR$/bin">
+    <configuration default="false" name="part2.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/smiles/part2.html">
       <method />
     </configuration>
-    <configuration default="false" name="04_function2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/jsfun/04_function2.html">
+    <configuration default="false" name="part3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/smiles/part3.html">
       <method />
     </configuration>
-    <configuration default="false" name="part1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/part1.html">
+    <configuration default="false" name="part4.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/smiles/part4.html">
       <method />
     </configuration>
-    <configuration default="false" name="part2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/part2.html">
+    <configuration default="false" name="part1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NodeFun/public/smiles/part1.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1673,17 +1706,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.server_basic_auth.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.server_session_store.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.04_function2.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.part1.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.part2.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.01_dom_path_html.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.part2.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.part3.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.part4.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.part1.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.part2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.part1.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.04_function2.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.part4.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.part3.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.part2.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.part1.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.01_dom_path_html.html" />
       </list>
     </recent_temporary>
   </component>
@@ -1726,36 +1761,37 @@
       <workItem from="1469908658594" duration="2012000" />
       <workItem from="1469915087599" duration="56000" />
       <workItem from="1469915202694" duration="11251000" />
+      <workItem from="1470518215591" duration="14706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165791000" />
+    <option name="totallyTimeSpent" value="180497000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-3" y="9" width="1932" height="1216" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31666666" sideWeight="0.2625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31666666" sideWeight="0.26565763" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.8390625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.8390625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16544884" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31666666" sideWeight="0.7375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31666666" sideWeight="0.7343424" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2039,32 +2075,40 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/jsfun/04_function2.html</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/jsfun/04_function2.html</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/part1.html</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/part2.html</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dom/01_dom_path_html.html</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/dom/01_dom_path_html.html</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="118" />
+      <option name="time" value="123" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2073,234 +2117,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="137" column="3" selection-start-line="137" selection-start-column="3" selection-end-line="137" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/promotions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/favorites.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/dishes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dishRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/oneFavoriteRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/favoriteRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/private.key">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/certificate.pem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="427" column="0" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/verify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fun/03_html_example_css_pseudo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tables/01_html_example_table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tables/02_html_example_table_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tables/03_html_example_table_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tables/04_html_example_table_class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/color.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/forms/02_html_example_form_textarea_submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/forms/01_html_example_form_textarea_submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/forms/02_html_example_form_text_checkbox_radio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/forms/01_html_example_form_fieldset_legend01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/forms/01_html_example_form_new_html5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/forms/06_html_example_form_attributes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/date/part1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2311,19 +2131,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/date/part3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2331,7 +2142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2339,7 +2149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2347,7 +2156,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2355,7 +2163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2363,7 +2170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2371,15 +2177,194 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="440">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1470244723902" expanded="true" signature="0:28" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="38:59" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="89:125" ph="/**@param {} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="149:209" ph="/**@param {} s ...*/" />
+            <marker date="1470244723902" expanded="true" signature="243:279" ph="/**@param {} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="309:351" ph="/**@param {Number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="376:418" ph="/**@param {Number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="446:496" ph="/**@param {string} encodedURI ...*/" />
+            <marker date="1470244723902" expanded="true" signature="534:593" ph="/**@param {string} encodedURIComponent ...*/" />
+            <marker date="1470244723902" expanded="true" signature="649:692" ph="/**@param {string} uri ...*/" />
+            <marker date="1470244723902" expanded="true" signature="723:775" ph="/**@param {string} uriComponent ...*/" />
+            <marker date="1470244723902" expanded="true" signature="825:848" ph="/**@type {function} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="883:904" ph="/**@type {Object} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="937:975" ph="/**@param {} [value] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1002:1079" ph="/**@param {(string|string[])} [locales] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1144:1197" ph="/**@param {string} propertyName ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1259:1301" ph="/**@param {Object} o ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1351:1404" ph="/**@param {string} propertyName ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1472:1495" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1539:1557" ph="/**@return {} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1601:1622" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1651:1703" ph="/**@param {...} [args] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1728:1786" ph="/**@param {...T|Array.&lt;T&gt;} [items] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1832:1883" ph="/**@param {string} [separator] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1931:1949" ph="/**@return {T} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1987:2032" ph="/**@param {...T} [items] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2076:2102" ph="/**@return {Array.&lt;T&gt;} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2144:2162" ph="/**@return {T} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2202:2274" ph="/**@param {Number} [start] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2323:2379" ph="/**@param {function} [compareFn] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2427:2529" ph="/**@param {Number} [start] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2593:2638" ph="/**@param {...T} [items] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2685:2707" ph="/**@return {Array} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2750:2802" ph="/**@param [value] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2830:2854" ph="/**@return {boolean} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2899:3103" ph="/**@param {number} year ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3180:3238" ph="/**@param {string} dateString ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3277:3315" ph="/**@param {...} args ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3339:3362" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3403:3426" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3466:3489" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3531:3554" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3599:3622" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3664:3687" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3736:3759" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3803:3826" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3870:3893" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3934:3957" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4008:4031" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4075:4098" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4141:4164" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4212:4235" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4280:4303" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4355:4378" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4425:4448" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4493:4516" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4563:4586" ph="/**@return {number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4627:4654" ph="/**@param {number} date ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4699:4772" ph="/**@param {number} year ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4831:4923" ph="/**@param {number} hour ...*/" />
+            <marker date="1470244723902" expanded="true" signature="4980:5005" ph="/**@param {number} ms ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5056:5125" ph="/**@param {number} min ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5179:5229" ph="/**@param {number} month ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5280:5327" ph="/**@param {number} sec ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5377:5404" ph="/**@param {number} time ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5449:5476" ph="/**@param {number} date ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5524:5597" ph="/**@param {number} year ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5659:5751" ph="/**@param {number} hour ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5811:5836" ph="/**@param {number} ms ...*/" />
+            <marker date="1470244723902" expanded="true" signature="5890:5959" ph="/**@param {number} min ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6016:6066" ph="/**@param {number} month ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6120:6167" ph="/**@param {number} sec ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6220:6248" ph="/**@param {number} value ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6294:6317" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6363:6386" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6431:6508" ph="/**@param {(string|string[])} [locales] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6575:6652" ph="/**@param {(string|string[])} [locales] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6715:6792" ph="/**@param {(string|string[])} [locales] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6859:6882" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6928:6951" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="6997:7020" ph="/**@type {function} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7053:7095" ph="/**@type {function} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7180:7211" ph="/**@type {Arguments} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7246:7274" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7305:7333" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7365:7435" ph="/**@param {Object} [thisArg] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7494:7559" ph="/**@param {Object} [thisArg] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7629:7665" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7678:7714" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7730:7766" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7781:7817" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7835:7871" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7888:7924" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7938:7974" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="7993:8029" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8046:8095" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8123:8172" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8201:8250" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8279:8328" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8357:8424" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8456:8505" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8534:8583" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8611:8660" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8688:8737" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8767:8816" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8844:8896" ph="/**@param {...number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="8924:8976" ph="/**@param {...number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9004:9071" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9101:9132" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9162:9211" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9241:9290" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9318:9367" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9396:9445" ph="/**@param {number} x ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9485:9521" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9544:9580" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9603:9639" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9656:9692" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9723:9759" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9790:9841" ph="/**@param [value] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9868:9926" ph="/**@param {Number} [fractionalDigits] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="9991:10049" ph="/**@param {Number} [fractionalDigits] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10108:10159" ph="/**@param {Number} [precision] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10215:10262" ph="/**@param {Number} [radix] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10311:10334" ph="/**@return {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10378:10414" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10442:10478" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10500:10536" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10562:10598" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10624:10660" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10689:10725" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10744:10780" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10799:10835" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10854:10890" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10909:10945" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="10964:10993" ph="/**@type {boolean} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11023:11052" ph="/**@type {boolean} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11086:11107" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11140:11162" ph="/**@type {boolean} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11195:11216" ph="/**@type {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11249:11320" ph="/**@param {string} [pattern] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11357:11433" ph="/**@param {string} [String] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11479:11528" ph="/**@param {string} [String] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11575:11633" ph="/**@param {...Number} [chars] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11676:11697" ph="/**@type {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11727:11778" ph="/**@param [value] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11805:11860" ph="/**@param {string} [nameAttribute] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11915:11938" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="11977:12000" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12041:12064" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12104:12147" ph="/**@param {Number} pos ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12192:12215" ph="/**@return {Number} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12266:12318" ph="/**@param {...string} [strings] ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12367:12390" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12431:12476" ph="/**@param {string} color ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12526:12570" ph="/**@param {Number} size ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12618:12697" ph="/**@param {string} searchString ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12761:12784" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12827:12906" ph="/**@param {string} searchString ...*/" />
+            <marker date="1470244723902" expanded="true" signature="12974:13018" ph="/**@param {string} href ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13062:13160" ph="/**@param {string} that ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13229:13303" ph="/**@param {RegExp} regexp ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13350:13446" ph="/**@param {RegExp|string} searchValue ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13513:13554" ph="/**@param {} regexp ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13602:13669" ph="/**@param {Number} start ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13719:13742" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13783:13850" ph="/**@param {} separator ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13906:13929" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="13971:13994" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14033:14103" ph="/**@param {Number} start ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14157:14224" ph="/**@param {Number} start ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14278:14301" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14340:14363" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14410:14433" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14486:14509" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14562:14585" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14632:14655" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14699:14720" ph="/**@type {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14750:14771" ph="/**@type {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="14804:14856" ph="/**@param {} [msg] ...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2387,7 +2372,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1441005990000" expanded="true" signature="21:171" ph="..." />
+            <marker date="1441005990000" expanded="true" signature="32:163" ph="..." />
+            <marker date="1441005990000" expanded="true" signature="91:151" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2407,6 +2396,326 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/jsfun/03_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <marker date="1441006006000" expanded="true" signature="21:280" ph="..." />
+            <marker date="1441006006000" expanded="true" signature="32:272" ph="..." />
+            <marker date="1441006006000" expanded="true" signature="93:260" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2354">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding>
+            <marker date="1470244723902" expanded="true" signature="0:55" ph="/**@param {Object} object ...*/" />
+            <marker date="1470244723902" expanded="true" signature="99:150" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="196:268" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="326:419" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="472:545" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="596:646" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="679:729" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="777:854" ph="/**@param {Object} proto ...*/" />
+            <marker date="1470244723902" expanded="true" signature="897:948" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="991:1042" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1075:1127" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1164:1215" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1250:1302" ph="/**@param {Object} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1340:1387" ph="/**@param {} obj ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1422:1521" ph="/**@param {function(, =, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1583:1682" ph="/**@param {function(, =, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1749:1825" ph="/**@param {T} searchElement ...*/" />
+            <marker date="1470244723902" expanded="true" signature="1890:1966" ph="/**@param {T} searchElement ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2035:2132" ph="/**@param {function(T=, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2188:2287" ph="/**@param {function(T=, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2344:2438" ph="/**@param {function(T=, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2496:2591" ph="/**@param {function(T=, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2645:2742" ph="/**@param {function(T=, number=, Array.&lt;T&gt;=)} callback ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2797:2828" ph="/**@class Array ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2839:2862" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2902:2925" ph="/**@return {string} ...*/" />
+            <marker date="1470244723902" expanded="true" signature="2968:3052" ph="/**@param {T} thisArg ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3106:3213" ph="/**@param {} value ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3266:3335" ph="/**@param {string} jsonString ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3393:3424" ph="/**@static ...*/" />
+            <marker date="1470244723902" expanded="true" signature="3451:3474" ph="/**@return {string} ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/guessing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <marker date="1470002307071" expanded="true" signature="0:32" ph="/** Simple guessing game. ...*/" />
+            <marker date="1470002307071" expanded="true" signature="140:569" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="309:567" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="594:1263" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="623:763" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="808:909" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="938:1011" ph="{...}" />
+            <marker date="1470002307071" expanded="true" signature="1040:1113" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/part2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1470069245812" expanded="true" signature="31:4835" ph="..." />
+            <marker date="1470069245812" expanded="true" signature="38:108" ph="..." />
+            <marker date="1470069245812" expanded="true" signature="134:4827" ph="..." />
+            <marker date="1470069245812" expanded="true" signature="148:4819" ph="..." />
+            <marker date="1470069245812" expanded="true" signature="2204:2325" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="2362:3647" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="2482:2736" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="2663:2722" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3051:3637" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3307:3482" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3567:3623" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3691:4804" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3741:3893" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="3940:4164" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="4211:4452" ph="{...}" />
+            <marker date="1470069245812" expanded="true" signature="4470:4792" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/color.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/loops/01_for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/loops/02_for_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/loops/03_for_in_object.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/loops/04_for_of.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/02_dom_path_svg.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/01_dom_path_html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/01_dom_html_insertbefore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/02_dom_html_appendchild.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/02_dom_delete_all_children_example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/01_dom_delete_node_example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dom/02_dom_clone_node_simple_clonenode_true.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/02_onmouseover_onmouseout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/04_setinterval_image1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/timertest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/01_onclick_image.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/02_add_event_js2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/01_add_event_js1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/03_remove_event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/eventtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/01_function_passes_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/events/02_function_returns_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/colorful/02_dom_colorful_pattern_no_color.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/colorful/01_dom_colorful_pattern_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/date/part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/guessing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -2415,42 +2724,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/jsfun/03_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/guessing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/part1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="666">
           <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/part2.html">
+    <entry file="file://$PROJECT_DIR$/public/smiles/part1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="71" />
+        <state relative-caret-position="396">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/smiles/part2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/smiles/part3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/smiles/part4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding />
         </state>
       </provider>
